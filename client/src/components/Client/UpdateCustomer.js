@@ -20,7 +20,7 @@ const UpdateCustomer = ({ customerId }) => {
   useEffect(() => {
     const fetchCustomer = async () => {
       try {
-        const response = await axios.get(`/api/customers/${state.currentUserId}`);
+        const response = await axios.get(`api/updateuserdata/${state.currentUserId}`);
         setCustomerData(response.data);
       } catch (err) {
         setError('Update Your Details');
@@ -55,7 +55,7 @@ const UpdateCustomer = ({ customerId }) => {
 
     try {
       // API call to update customer information
-      const response = await axios.put(`http://localhost:8000/api/updateuserdata/${state.currentUserId}`, customerData);
+      const response = await axios.put(`https://org-server-br1g.onrender.com/api/updateuserdata/${state.currentUserId}`, customerData);
       if (response.status === 200) {
         setMessage('Customer information updated successfully.');
         alert("Your details are Successfully Updated...")
