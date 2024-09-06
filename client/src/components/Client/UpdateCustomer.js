@@ -20,7 +20,7 @@ const UpdateCustomer = ({ customerId }) => {
   useEffect(() => {
     const fetchCustomer = async () => {
       try {
-        const response = await axios.get(`api/updateuserdata/${state.currentUserId}`);
+        const response = await axios.get(`https://org-server-br1g.onrender.com/api/updateuserdata/${state.currentUserId}`);
         setCustomerData(response.data);
       } catch (err) {
         setError('Update Your Details');
