@@ -34,7 +34,7 @@ function Login() {
       password: state.password
     };
     await axios
-      .post("http://localhost:8000/api/login", formData)
+      .post("https://org-server-br1g.onrender.com/api/login", formData)
       .then((response) => {
         if (response.status === 200) {
           setPopUps((i) => ({ ...i, loading: true }));
