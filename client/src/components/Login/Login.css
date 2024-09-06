@@ -1,0 +1,310 @@
+@media screen and (max-width: 768px) {
+  .loader {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+  }
+  .Login-successful {
+    color: green;
+    font-size: 15px;
+  }
+  .Login-page {
+    height: 100vh;
+    background-size: cover;
+    background-color: #ebf3ff;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Login-card {
+    min-height: 360px;
+    max-height: 600px;
+    width: 350px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(7, 7, 7, 0.08) 0px 8px 40px;
+  }
+  .Login-heading {
+    color: rgb(185, 79, 79);
+    font-size: 20px;
+  }
+  .LoginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Login-label-name {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Roboto";
+    color: #7e858e;
+    align-self: flex-start;
+    margin-bottom: 4px;
+  }
+  .Login-button {
+    width: 320px;
+    height: 40px;
+    background-color: #263868;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top:10px;
+  }
+  .Login-input {
+    width: 320px;
+    height: 40px;
+    margin-bottom: 5px;
+    border-color: #d7dfe9;
+    border-radius: 7px;
+    border-style: solid;
+    font-size: 16px;
+    outline: none;
+  }
+
+  .Login-checkbox-div {
+    display: flex;
+    align-self: flex-start;
+  }
+  .Login-checkbox {
+    height: 16px;
+    width: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d7dfe9;
+    border-radius: 2px;
+    outline: none;
+    margin-top:3px;
+    margin-right:6px;
+  }
+  .Login-error-message {
+    color: rgb(174, 36, 36);
+    font-size: small;
+    align-self: flex-start;
+  }
+  .Register-button {
+    width: 320px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #263868;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 18px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .loader {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+  }
+  .Login-successful {
+    color: green;
+    font-size: 15px;
+  }
+  .Login-page {
+    height: 100vh;
+    background-size: cover;
+    background-color: #ebf3ff;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Login-card {
+    min-height: 380px;
+    max-height: 600px;
+    box-shadow: rgba(7, 7, 7, 0.08) 0px 8px 40px;
+    width: 468px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Login-heading {
+    color: rgb(185, 79, 79);
+    font-size: 24px;
+  }
+  .LoginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Login-label-name {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Roboto";
+    color: #7e858e;
+    align-self: flex-start;
+    margin-bottom: 4px;
+  }
+  .Login-button {
+    width: 360px;
+    height: 40px;
+    background-color: #263868;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top:10px;
+  }
+  .Login-input {
+    width: 360px;
+    height: 40px;
+    margin-bottom: 5px;
+    border-color: #d7dfe9;
+    border-radius: 7px;
+    border-style: solid;
+    font-size: 16px;
+    outline: none;
+  }
+
+  .Login-checkbox-div {
+    display: flex;
+    align-self: flex-start;
+  }
+  .Login-checkbox {
+    height: 16px;
+    width: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d7dfe9;
+    border-radius: 2px;
+    outline: none;
+    margin-top:3px;
+    margin-right:6px;
+  }
+  .Login-error-message {
+    color: rgb(174, 36, 36);
+    font-size: small;
+    align-self: flex-start;
+  }
+  .Register-button {
+    width: 360px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #263868;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 18px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .loader {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+  }
+  .Login-successful {
+    color: green;
+    font-size: 15px;
+  }
+  .Login-page {
+    height: 100vh;
+    background-size: cover;
+    background-color: #ebf3ff;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Login-card {
+    min-height: 380px;
+    max-height: 600px;
+    box-shadow: rgba(7, 7, 7, 0.08) 0px 8px 40px;
+    width: 468px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Login-heading {
+    color: rgb(185, 79, 79);
+    font-size: 25px;
+  }
+  .LoginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Login-label-name {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Roboto";
+    color: #7e858e;
+    align-self: flex-start;
+    margin-bottom: 4px;
+  }
+  .Login-button {
+    width: 360px;
+    height: 40px;
+    background-color: #263868;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top:10px;
+  }
+  .Login-input {
+    width: 360px;
+    height: 40px;
+    margin-bottom: 5px;
+    border-color: #d7dfe9;
+    border-radius: 7px;
+    border-style: solid;
+    font-size: 16px;
+    outline: none;
+  }
+
+  .Login-checkbox-div {
+    display: flex;
+    align-self: flex-start;
+  }
+  .Login-checkbox {
+    height: 16px;
+    width: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d7dfe9;
+    border-radius: 2px;
+    outline: none;
+    margin-top:3px;
+    margin-right:6px;
+  }
+  .Login-error-message {
+    color: rgb(174, 36, 36);
+    font-size: small;
+    align-self: flex-start;
+  }
+  .Register-button {
+    width: 360px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #263868;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 18px;
+  }
+}

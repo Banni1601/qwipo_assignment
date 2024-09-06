@@ -1,0 +1,131 @@
+
+
+.support-container {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background: linear-gradient(to right, #f8cdda, #1d2b64); /* Gradient background for the whole page */
+  min-height: 140vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+
+.support-header {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for header */
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.support-header h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #0073e6;
+}
+
+.support-content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for content */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-section, .contact-section {
+  margin-bottom: 40px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-item h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f7f7f7; /* Light gray background for input fields */
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #0073e6;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #005bb5;
+}
+
+
+@media (max-width: 768px) {
+  .support-content {
+    padding: 10px;
+  }
+
+  .support-header h1 {
+    font-size: 1.5em;
+  }
+
+  .faq-item h3 {
+    font-size: 1em;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.9em;
+  }
+}
+
+.delete-customer-page {
+  background: linear-gradient(135deg, #6dd5fa 0%, #2980b9 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #333;
+}
+
+.customer-info {
+  margin-top: 20px;
+}
+
+.customer-info p {
+  margin-bottom: 10px;
+}

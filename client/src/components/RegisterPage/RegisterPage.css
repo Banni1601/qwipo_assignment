@@ -1,0 +1,376 @@
+@media screen and (max-width: 768px) {
+  .dob {
+    align-self: flex-start;
+  }
+  .select-style {
+    align-self: flex-start;
+  }
+  .profilePhoto-button {
+    align-self: flex-start;
+    margin-left: 0px;
+  }
+  .radio-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    align-self: flex-start;
+    margin-right: 7px;
+  }
+  .radio-bottons-1 {
+    margin-right: 10px;
+  }
+  .loader {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+  }
+  .Register-page-register-button {
+    width: 300px;
+    height: 40px;
+    background-color: #263868;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 5px;
+  }
+  .Register-page-Login-button {
+    width: 300px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #263868;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+  .register-successful {
+    color: g reen;
+    font-size: 20px;
+  }
+  .Register-page {
+    height: 120vh;
+    background-size: cover;
+    background-color: #ebf3ff;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Register-card {
+    min-height: 730px;
+    max-height: 900px;
+    width: 380px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(7, 7, 7, 0.08) 0px 8px 40px;
+    padding-left:10px;
+    padding-right:10px;
+    
+  }
+  .Register-heading {
+    color: rgb(185, 79, 79);
+    font-size: 20px;
+  }
+  .RegisterForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .label-name {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Roboto";
+    color: #7e858e;
+    align-self: flex-start;
+  }
+
+  .Register-input {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 5px;
+    border-color: #d7dfe9;
+    border-radius: 7px;
+    border-style: solid;
+    font-size: 16px;
+    outline: none;
+    align-self:flex-start;
+  }
+
+  .Register-checkbox-div {
+    display: flex;
+    align-self: flex-start;
+  }
+  .Register-checkbox {
+    height: 16px;
+    width: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d7dfe9;
+    border-radius: 2px;
+    outline: none;
+    margin-top:3px;
+    margin-right:5px;
+  }
+  .error-message {
+    color: rgb(174, 36, 36);
+    font-size: small;
+    align-self: flex-start;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .dob {
+    align-self: flex-start;
+  }
+  .select-style {
+    align-self: flex-start;
+  }
+  .profilePhoto-button {
+    align-self: flex-start;
+    margin-left: 0px;
+  }
+  .radio-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    align-self: flex-start;
+    margin-right: 7px;
+  }
+  .radio-bottons-1 {
+    margin-right: 10px;
+  }
+  .loader {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+  }
+  .register-successful {
+    color: green;
+    font-size: 20px;
+  }
+  .Register-page {
+    height: 120vh;
+    background-size: cover;
+    background-color: #ebf3ff;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Register-card {
+    min-height: 730px;
+    max-height: 900px;
+    width: 468px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: rgba(7, 7, 7, 0.08) 0px 8px 40px;
+  }
+  .Register-heading {
+    color: rgb(185, 79, 79);
+    font-size: 25px;
+  }
+  .RegisterForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .label-name {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Roboto";
+    color: #7e858e;
+    align-self: flex-start;
+  }
+
+  .Register-input {
+    width: 360px;
+    height: 40px;
+    margin-bottom: 5px;
+    border-color: #d7dfe9;
+    border-radius: 7px;
+    border-style: solid;
+    font-size: 16px;
+    outline: none;
+  }
+
+  .Register-checkbox-div {
+    display: flex;
+    align-self: flex-start;
+  }
+  .Register-checkbox {
+    height: 16px;
+    width: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d7dfe9;
+    border-radius: 2px;
+    outline: none;
+    margin-top:3px;
+    margin-right:5px;
+  }
+  .error-message {
+    color: rgb(174, 36, 36);
+    font-size: small;
+    align-self: flex-start;
+  }
+  .Register-page-register-button {
+    width: 360px;
+    height: 40px;
+    background-color: #263868;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 5px;
+  }
+  .Register-page-Login-button {
+    width: 360px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #263868;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .dob {
+    align-self: flex-start;
+  }
+  .select-style {
+    align-self: flex-start;
+  }
+  .profilePhoto-button {
+    align-self: flex-start;
+    margin-left: 0px;
+  }
+  .radio-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    align-self: flex-start;
+    margin-right: 7px;
+  }
+  .radio-bottons-1 {
+    margin-right: 10px;
+  }
+  .loader {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+  }
+  .Register-page-register-button {
+    width: 360px;
+    height: 40px;
+    background-color: #263868;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 5px;
+  }
+  .Register-page-Login-button {
+    width: 360px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #263868;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+  .register-successful {
+    color: green;
+    font-size: 20px;
+  }
+  .Register-page {
+    height: 120vh;
+    background-size: cover;
+    background-color: #ebf3ff;
+    padding: 1px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+  .Register-card {
+    min-height: 730px;
+    max-height: 900px;
+    width: 468px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: rgba(7, 7, 7, 0.08) 0px 8px 40px;
+   
+  }
+  .Register-heading {
+    color: rgb(185, 79, 79);
+    font-size: 26px;
+  }
+  .RegisterForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .label-name {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Roboto";
+    color: #7e858e;
+    align-self: flex-start;
+  }
+
+  .Register-input {
+    width: 360px;
+    height: 40px;
+    margin-bottom: 5px;
+    border-color: #d7dfe9;
+    border-radius: 7px;
+    border-style: solid;
+    font-size: 16px;
+    outline: none;
+  }
+
+  .Register-checkbox-div {
+    display: flex;
+    align-self: flex-start;
+  }
+  .Register-checkbox {
+    height: 16px;
+    width: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d7dfe9;
+    border-radius: 2px;
+    outline: none;
+    margin-top:5px;
+    margin-right:5px;
+  }
+  .error-message {
+    color: rgb(174, 36, 36);
+    font-size: small;
+    align-self: flex-start;
+  }
+}
