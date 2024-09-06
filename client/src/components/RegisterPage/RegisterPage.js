@@ -56,7 +56,7 @@ function RegisterPage() {
   // Handle form submission
   const handleSubmit = async (values, { setSubmitting }) => {
     try {
-      await axios.post("http://localhost:8000/api/createCustomer", values)
+      await axios.post("https://org-server-br1g.onrender.com/api/createCustomer", values)
       .then((response) => {
         if (response.status === 200) {
           setState((i) => ({
