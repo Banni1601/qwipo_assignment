@@ -26,7 +26,7 @@ const DeleteCustomer = () => {
     setMessage('');
     setError('');
     try {
-       response = await axios.get(`http://localhost:8000/api/customers/search?query=${searchTerm}`);
+       response = await axios.get(`https://org-server-br1g.onrender.com/api/customers/search?query=${searchTerm}`);
       if (response.data) {
         await setCustomerData(response.data);
       } else{
@@ -45,7 +45,7 @@ const DeleteCustomer = () => {
 
     try {
       console.log(customerData);
-      const response = await axios.delete(`http://localhost:8000/api/deleteuser/:${state.currentUserId}`);
+      const response = await axios.delete(`https://org-server-br1g.onrender.com/api/deleteuser/:${state.currentUserId}`);
       if (response.status === 200) {
         setMessage('Customer deleted successfully.');
         setCustomerData(null);
