@@ -14,7 +14,7 @@ const About = () => {
     const fetchData = async () => {
       try {
         // Make API request using Axios
-        const response = await axios.get('http://localhost:8000/api/users');
+        const response = await axios.get('https://org-server-br1g.onrender.com/api/users');
         setDataList(response.data);  // Store the data in state
         setLoading(false);  // Set loading to false once data is fetched
       } catch (err) {
