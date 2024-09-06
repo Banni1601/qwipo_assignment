@@ -1,7 +1,6 @@
-# qviq_assignment
-# Website Link: https://qviq-assignment-seven.vercel.app/
-
-# Developed the Website called QVIQ
+# qwipo_assignment
+# Website Link: https://qwipo-assignment.vercel.app/
+# Developed the Website called qwipo
 # this website is Responsive and Dynamic 
 
 # Implemented Signup and Login pages for User Login and Added below features with CSS Styles
