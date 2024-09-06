@@ -3,7 +3,7 @@
 # Developed the Website called qwipo
 # this website is Responsive and Dynamic 
 
-# Implemented Signup and Login pages for User Login and Added below features with CSS Styles
+[# Implemented Signup and Login pages for User Login and Added below features with CSS Styles
 1. in Signup page,  added Input Elements Like Radio, Check box, File for image, Button, text, password, email, phoneNumber, DOB.
 2. the user data will be stored in the MongoDB database by using the RESTful API when the user is trying to Signup.
 3. After login/Signup , every user get the Token, QR CODE from the API as response and Token Stored in the Web Browser as Cookies, QR CODE displays in Account Page and also Stored in their Data at backend.
@@ -43,3 +43,4 @@
 4.Libraries at Backend: bcryptjs, body-parse, cookie-parser, cors, crypto, dotenv, jsonwebtoken, mongoose, nodemon, qrcode.
 
 
+](https://github.com/Banni1601/qwipo_assignment.git)
